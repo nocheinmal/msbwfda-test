@@ -54,4 +54,9 @@ datjs: datjs
 
 <style lang="scss" scoped>
 
+circle{
+  color: red;
+  
+}
+
 </style>
