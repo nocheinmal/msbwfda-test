@@ -27,6 +27,7 @@ datjs: datjs
         
         // Enter
         circles.enter().append("circle")
+.style('fill','green')
           .attr("r", 10)
 .merge(circles)
           .attr("cx", function (d){ return d.x; })
@@ -55,7 +56,7 @@ datjs: datjs
 <style lang="scss" scoped>
 
 circle{
-  color: green;
+  fill: green;
   
 }
 
